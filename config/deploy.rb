@@ -2,7 +2,7 @@
 lock "~> 3.17.0"
 
 set :application, 'finance'
-set :repo_url, 'https://github.com/goraksh1992/finance.git' # Edit this to match your repository
+set :repo_url, 'git@github.com:goraksh1992/finance.git' # Edit this to match your repository
 set :branch, :master
 set :deploy_to, '/home/ubuntu/finance'
 set :pty, true
